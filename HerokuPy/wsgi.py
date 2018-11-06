@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "sample_app.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "HerokuPy.settings")
 
-application = Cling(get_wsgi_application())
+application = get_wsgi_application()
